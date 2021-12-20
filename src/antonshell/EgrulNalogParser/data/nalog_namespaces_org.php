@@ -51,10 +51,10 @@ return [
         'confidant',
         'Сведения о лице, имеющем право без доверенности действовать от имени юридического'
     ),
-    /*new DocumentNamespace(
+    new DocumentNamespace(
         'founders',
-        'Сведения об учредителях (участниках'
-    ),*/
+        'Сведения об участниках'
+    ),
     new DocumentNamespace(
         'founders',
         'Сведения об учредителях (участниках',
