@@ -2,12 +2,6 @@
 Pdf parser for 
 https://egrul.nalog.ru/
 
-<p align="center">
-    <a href="http://demo.antonshell.me/egrul-nalog-parser/" target="_blank">
-        <img src="http://demo.antonshell.me/images/egrul-nalog-parser.png" alt="egrul-nalog-parser" />
-    </a>
-</p>
-
 # Instalation
 
 ```
