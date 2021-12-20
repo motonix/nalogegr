@@ -11,33 +11,8 @@ https://egrul.nalog.ru/
 # Instalation
 
 ```
-composer require "antonshell/egrul-nalog-parser:dev-master"
+composer require "motonix/nalogegr"
 ```
-
-# Demo
-
-See [**demo**][1] for more details
-
-<p align="center">
-    <a href="http://demo.antonshell.me/egrul-nalog-parser/" target="_blank">
-        <img src="http://demo.antonshell.me/images/egrul-nalog-parser-demo.jpg" alt="egrul-nalog-parser" />
-    </a>
-</p>
-
-# Examples
-
-Parse PDF, auto detect type
-
-```php
-<?php
-
-$parser = new \antonshell\EgrulNalogParser\Parser();
-
-// parse, auto detect type
-$path = __DIR__ . '/nalog_pe.pdf';
-$results = $parser->parseDocument($path);
-```
-
 
 Parse PDF for Individual Entrepreneur
 
