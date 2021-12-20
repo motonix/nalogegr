@@ -1,21 +1,21 @@
 {
-    "name": "antonshell/egrul-nalog-parser",
+    "name": "motonix/nalogegr",
     "description": "Pdf parser for https://egrul.nalog.ru/",
     "type": "library",
     "authors": [
         {
-            "name": "Anton Shelyganov",
-            "email": "antonshell@yandex.ru"
+            "name": "Den",
+            "email": "imoto@mail.ru"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "smalot/pdfparser": "^0.11.0",
+        "smalot/pdfparser": ">=0.11",
         "ext-mbstring": "*"
     },
     "autoload": {
         "psr-0": {
-            "antonshell\\EgrulNalogParser\\": "src/"
+            "motonix\\EgrulNalogParser\\": "src/"
         }
     }
 }
