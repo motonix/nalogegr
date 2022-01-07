@@ -66,7 +66,8 @@ return [
     ),
     new DocumentNamespace(
         'extra_activity',
-        'Сведения о дополнительных видах деятельности'
+        'Сведения о дополнительных видах деятельности',
+        false
     ),
     new DocumentNamespace(
         'egrul',
