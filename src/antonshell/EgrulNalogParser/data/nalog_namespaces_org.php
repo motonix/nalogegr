@@ -109,7 +109,7 @@ return [
         true
     ),
     new DocumentNamespace(
-        'akcioners',
+        'successors',
         'Сведения о правопреемнике',
         true
     ),
