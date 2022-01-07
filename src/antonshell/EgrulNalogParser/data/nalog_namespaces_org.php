@@ -108,4 +108,9 @@ return [
         'Филиалы',
         true
     ),
+    new DocumentNamespace(
+        'akcioners',
+        'Сведения о правопреемнике',
+        true
+    ),
 ];
