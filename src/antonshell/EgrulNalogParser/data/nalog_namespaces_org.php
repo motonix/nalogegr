@@ -31,7 +31,7 @@ return [
         'pension',
         'Сведения о регистрации в качестве страхователя в территориальном органе'
     ),
-    
+
     new DocumentNamespace(
         'pension',
         'Сведения о регистрации в качестве страхователя в территориальном органе Пенсионного фонда Российской Федерации'
@@ -66,12 +66,11 @@ return [
     ),
     new DocumentNamespace(
         'founders',
-        'Сведения об участниках'
+        'Сведения об участниках',
     ),
     new DocumentNamespace(
         'founders',
         'Сведения об учредителях (участниках',
-        true
     ),
     new DocumentNamespace(
         'main_activity',
@@ -80,13 +79,15 @@ return [
     new DocumentNamespace(
         'extra_activity',
         'Сведения о дополнительных видах деятельности',
-        false
+        true
     ),
     new DocumentNamespace(
         'egrul',
         'Сведения о записях, внесенных в Единый государственный реестр юридических лиц',
-        true,
-        true
+    ),
+    new DocumentNamespace(
+        'egrul_add',
+        'Сведения о документах, представленных при внесении записи в ЕГРЮЛ',
     ),
     new DocumentNamespace(
         'extra_activity',
@@ -97,6 +98,12 @@ return [
         'representative_offices',
         'Представительства',
         true
+    ),
+    new DocumentNamespace(
+        'remove',
+        'Сведения о регистрации юридического лица до 1 июля 2002 года',
+        true,
+        false
     ),
     new DocumentNamespace(
         'license_info',
