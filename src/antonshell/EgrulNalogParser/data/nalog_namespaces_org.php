@@ -25,7 +25,9 @@ return [
     ),
     new DocumentNamespace(
         'taxes',
-        'Сведения об учете в налоговом органе'
+        'Сведения об учете в налоговом органе',
+        false,
+        false
     ),
     new DocumentNamespace(
         'pension',
@@ -35,6 +37,16 @@ return [
     new DocumentNamespace(
         'pension',
         'Сведения о регистрации в качестве страхователя в территориальном органе Пенсионного фонда Российской Федерации'
+    ),
+
+    new DocumentNamespace(
+        'branches',
+        'Сведения о филиалах и представительствах',
+        true
+    ),
+    new DocumentNamespace(
+        'filials',
+        'Филиалы'
     ),
     new DocumentNamespace(
         'social_insurance',
@@ -73,11 +85,11 @@ return [
         'Сведения об учредителях (участниках',
     ),
     new DocumentNamespace(
-        'main_activity',
+        'main_okveds',
         'Сведения об основном виде деятельности'
     ),
     new DocumentNamespace(
-        'extra_activity',
+        'extra_okveds',
         'Сведения о дополнительных видах деятельности',
         true
     ),
@@ -92,7 +104,7 @@ return [
     new DocumentNamespace(
         'extra_activity',
         'Сведения о держателе реестра акционеров акционерного общества',
-        false
+        true
     ),
     new DocumentNamespace(
         'representative_offices',
@@ -108,11 +120,6 @@ return [
     new DocumentNamespace(
         'license_info',
         'Сведения о лицензиях',
-        true
-    ),
-    new DocumentNamespace(
-        'branch_offices',
-        'Филиалы',
         true
     ),
     new DocumentNamespace(
