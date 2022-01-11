@@ -25,9 +25,7 @@ return [
     ),
     new DocumentNamespace(
         'taxes',
-        'Сведения об учете в налоговом органе',
-        false,
-        false
+        'Сведения об учете в налоговом органе'
     ),
     new DocumentNamespace(
         'pension',
@@ -41,8 +39,7 @@ return [
 
     new DocumentNamespace(
         'branches',
-        'Сведения о филиалах и представительствах',
-        true
+        'Сведения о филиалах и представительствах'
     ),
     new DocumentNamespace(
         'filials',
@@ -78,7 +75,11 @@ return [
     ),
     new DocumentNamespace(
         'founders',
-        'Сведения об участниках',
+        'Сведения об участниках / учредителях юридического лица',
+    ),
+    new DocumentNamespace(
+        'org_state',
+        'Сведения о прекращении юридического лица',
     ),
     new DocumentNamespace(
         'founders',
@@ -90,8 +91,7 @@ return [
     ),
     new DocumentNamespace(
         'extra_okveds',
-        'Сведения о дополнительных видах деятельности',
-        true
+        'Сведения о дополнительных видах деятельности'
     ),
     new DocumentNamespace(
         'egrul',
@@ -102,29 +102,25 @@ return [
         'Сведения о документах, представленных при внесении записи в ЕГРЮЛ',
     ),
     new DocumentNamespace(
-        'extra_activity',
-        'Сведения о держателе реестра акционеров акционерного общества',
-        true
-    ),
-    new DocumentNamespace(
         'representative_offices',
-        'Представительства',
-        true
+        'Представительства'
     ),
     new DocumentNamespace(
         'remove',
         'Сведения о регистрации юридического лица до 1 июля 2002 года',
-        true,
+        false,
         false
     ),
     new DocumentNamespace(
         'license_info',
-        'Сведения о лицензиях',
-        true
+        'Сведения о лицензиях'
     ),
     new DocumentNamespace(
         'successors',
-        'Сведения о правопреемнике',
-        true
+        'Сведения о правопреемнике'
+    ),
+    new DocumentNamespace(
+        'extra_activity',
+        'Сведения о держателе реестра акционеров акционерного общества'
     ),
 ];
