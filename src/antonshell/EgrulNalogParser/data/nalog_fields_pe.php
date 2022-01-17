@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'Имя' => 'first_name',
-    'Фамилия' => 'last_name',
-    'Отчество' => 'middle_name',
-    'Пол' => 'gender',
-    'ГРН и дата внесения в ЕГРИП записи,содержащей указанные сведения' => 'grn_record_current_record',
-    'Гражданство' => 'citizen',
-    'ОГРНИП' => 'ogrnip',
+    //'Имя' => 'first_name',
+    //'Фамилия' => 'last_name',
+    //'Отчество' => 'middle_name',
+    //'Пол' => 'gender',
+    //'ГРН и дата внесения в ЕГРИП записи,содержащей указанные сведения' => 'grn_record_current_record',
+    //'Гражданство' => 'citizen',
+    //'ОГРНИП' => 'ogrnip',
     'Дата регистрации' => 'register_date',
     'Наименование регистрирующего органа' => 'organization_name',
     'Адрес регистрирующего органа' => 'organization_address',
