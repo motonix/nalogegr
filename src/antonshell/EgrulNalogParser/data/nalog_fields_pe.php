@@ -9,6 +9,7 @@ return [
     //'Гражданство' => 'citizen',
     //'ОГРНИП' => 'ogrnip',
     //'Фамилия Имя Отчество' => 'fullname',
+    'E-mail' => 'email',
     'Дата регистрации' => 'regdate',
     'Наименование регистрирующего органа' => 'organization_reg_name',
     'Адрес регистрирующего органа' => 'organization_address',
