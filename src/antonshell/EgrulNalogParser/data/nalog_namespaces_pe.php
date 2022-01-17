@@ -12,11 +12,11 @@ return [
         'Сведения о гражданстве'
     ),
     new DocumentNamespace(
-        'pe_register_info',
+        'registration_info',
         'Сведения о регистрации индивидуального предпринимателя'
     ),
     new DocumentNamespace(
-        'register_org_info',
+        'register_taxes',
         'Сведения о регистрирующем органе по месту жительства индивидуального'
     ),
     new DocumentNamespace(
@@ -28,18 +28,15 @@ return [
         'Сведения о регистрации в качестве страхователя в территориальном органе'
     ),
     new DocumentNamespace(
-        'main_activity',
-        'Сведения об основном виде деятельности',
-        true
+        'okveds',
+        'Сведения об основном виде деятельности'
     ),
     new DocumentNamespace(
-        'extra_activity',
+        'okveds_add',
         'Сведения о дополнительных видах деятельности'
     ),
     new DocumentNamespace(
         'egrip',
-        'Сведения о записях, внесенных в ЕГРИП',
-        true,
-        true
+        'Сведения о записях, внесенных в ЕГРИП'
     ),
 ];
