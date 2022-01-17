@@ -5,7 +5,7 @@ use antonshell\EgrulNalogParser\classes\DocumentNamespace;
 return [
     new DocumentNamespace(
         'common',
-        'Фамилия, имя, отчество (при наличии'
+        'Фамилия, имя, отчество (при наличии) индивидуального предпринимателя'
     ),
     new DocumentNamespace(
         'citizen',
