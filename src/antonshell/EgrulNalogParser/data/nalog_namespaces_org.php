@@ -52,11 +52,11 @@ return [
     new DocumentNamespace(
         'social_insurance',
         'Сведения о регистрации в качестве страхователя в исполнительном органе Фонда'
-    ),
+    ),/*
     new DocumentNamespace(
         'okveds',
         'Сведения о видах экономической деятельности по Общероссийскому классификатору'
-    ),
+    ),*/
     new DocumentNamespace(
         'okveds_add',
         'Сведения о дополнительных видах деятельности'
@@ -70,10 +70,6 @@ return [
         'Сведения об уставном капитале / складочном капитале / уставном фонде / паевом фонде'
     ),
     new DocumentNamespace(
-        'stop_org',
-        'Сведения о прекращении'
-    ),
-    new DocumentNamespace(
         'confidant',
         'Сведения о лице, имеющем право без доверенности действовать от имени юридического'
     ),
@@ -82,17 +78,17 @@ return [
         'Сведения об участниках / учредителях юридического лица',
     ),
     new DocumentNamespace(
-        'org_state',
-        'Сведения о прекращении юридического лица',
-    ),
-    new DocumentNamespace(
         'founders',
         'Сведения об учредителях (участниках',
     ),
     new DocumentNamespace(
+        'org_state',
+        'Сведения о прекращении юридического лица',
+    ),
+    new DocumentNamespace(
         'main_okveds',
         'Сведения об основном виде деятельности'
-    ),
+    ),/*
     new DocumentNamespace(
         'extra_okveds',
         'Сведения о дополнительных видах деятельности'
@@ -104,7 +100,7 @@ return [
     new DocumentNamespace(
         'egrul_add',
         'Сведения о документах, представленных при внесении записи в ЕГРЮЛ',
-    ),
+    ),*/
     new DocumentNamespace(
         'representative_offices',
         'Представительства'
