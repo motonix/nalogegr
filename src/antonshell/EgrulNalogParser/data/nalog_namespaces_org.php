@@ -12,6 +12,10 @@ return [
         'Адрес (место нахождения'
     ),
     new DocumentNamespace(
+        'contacts',
+        'Адрес электронной почты'
+    ),
+    new DocumentNamespace(
         'registration_info',
         'Сведения о регистрации'
     ),
