@@ -120,6 +120,10 @@ return [
         'Сведения о правопреемнике'
     ),
     new DocumentNamespace(
+        'predecessor',
+        'Сведения о правопредшественнике'
+    ),
+    new DocumentNamespace(
         'extra_activity',
         'Сведения о держателе реестра акционеров акционерного общества'
     ),
