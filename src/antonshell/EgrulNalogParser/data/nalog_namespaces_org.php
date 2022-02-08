@@ -50,6 +50,10 @@ return [
         'Филиалы'
     ),
     new DocumentNamespace(
+        'agency',
+        'Представительства'
+    ),
+    new DocumentNamespace(
         'social_insurance',
         'Сведения о регистрации в качестве страхователя в исполнительном органе Фонда'
     ),/*
@@ -88,22 +92,6 @@ return [
     new DocumentNamespace(
         'main_okveds',
         'Сведения об основном виде деятельности'
-    ),/*
-    new DocumentNamespace(
-        'extra_okveds',
-        'Сведения о дополнительных видах деятельности'
-    ),
-    new DocumentNamespace(
-        'egrul',
-        'Сведения о записях, внесенных в Единый государственный реестр юридических лиц',
-    ),
-    new DocumentNamespace(
-        'egrul_add',
-        'Сведения о документах, представленных при внесении записи в ЕГРЮЛ',
-    ),*/
-    new DocumentNamespace(
-        'representative_offices',
-        'Представительства'
     ),
     new DocumentNamespace(
         'remove',
